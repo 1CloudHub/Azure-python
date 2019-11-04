@@ -16,8 +16,8 @@ This blog will be useful for developers who are facing the below pain points.
  * [Pre-requisites](#pre-requisites)
  	
  	 - [Python -v 3.7](#python -v 3.7)
-	 - [Pip -v 19.0](#pip -v 19.0)
-	 - [Azure package for python -v 4.0](#azure-package-python -v 4.0)
+	  - [Pip -v 19.0](#pip -v 19.0)
+	  - [Azure package for python -v 4.0](#azure-package-python -v 4.0)
 	
  * [Authentication](#authentication)
  	
