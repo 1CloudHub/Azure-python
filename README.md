@@ -15,25 +15,24 @@ This blog will be useful for developers who are facing the below pain points.
 	
  * [Pre-requisites](#pre-requisites)
  	
- 	 - [Python -v 3.7](#python -v 3.7)
-	  - [Pip -v 19.0](#pip -v 19.0)
-	  - [Azure package for python -v 4.0](#azure-package-python -v 4.0)
+ 	 - Python -v 3.7
+ 	 - Pip -v 19.0
+ 	 - Azure package for python -v 4.0
 	
  * [Authentication](#authentication)
  	
- 	- [Authenticate the API call](#authenticate-the-api-call)
+ 	- Authenticate the API call
 	
  * [Context Setting](#context-setting)
  	
-  	- [List the virtual machines](#list-the-virtual-machines)
+  	- List the virtual machines
 	
  * [Metrics Retrieval](#metrics-retrieval)
  	
-  	- [Fetch system metrics](#fetch-sysytem-metrics)
+  	- Fetch system metrics
 	
  * [Output handling](#output-handling)
- 	
-  	- [Writing the output to a file](#writing-the-output-to-a-file)
+  	- Writing the output to a file
 	
  * [Reference Links](#reference-links)
 
