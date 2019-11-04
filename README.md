@@ -47,13 +47,13 @@ This blog will be useful for developers who are facing the below pain points.
    https://www.python.org/downloads/
 	
 - #### Pip -v 19.0
-Check if pip is already installed.
+	Check if pip is already installed.
 	
- `$pip3 --version `
+ `$ pip3 --version`
  	
 	If not installed, execute the below command.
 	
-	 `$ sudo apt install python3-pip`
+ `$ sudo apt install python3-pip`
 	 
 - #### Azure package for python -v 4.0
 	Install Azure package for python using the below command.
