@@ -76,7 +76,7 @@ This blog will be useful for developers who are facing the below pain points.
 	
 	From that, we will be able to pull out the resource ID (a combination of subscription ID, resource group name and the virtual machine name) for each VM which would be required by the monitoring API to retrieve system metrics.
 	
-	```javascript
+```javascript
         for rg in resource_client.resource_groups.list():
             for vm in compute_client.virtual_machines.list(resource_group_name=rg.name):
                 subID_resourceID_list .append({'subscriptionID': sub, 'resourceID': vm.id})
@@ -92,7 +92,7 @@ These can be used to customize the report further.
 	
 	For this case, we will try to fetch just the CPU utilization, Network in and Network out. Data for other metrics can also be retrieved using this method provided the name of the metric is already known.
 	
-	```javascript
+```javascript
             metrics_data = monitor_client.metrics.list(
                 subID_resourceID['resourceID'],
                 timespan="{}/{}".format(startTime, endTime),
