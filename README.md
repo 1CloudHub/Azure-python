@@ -13,10 +13,11 @@ This blog will be useful for developers who are facing the below pain points.
 
 **Table of Contents**
  * [Pre-requisites](#pre-requisites)
-      - [Python -v 3.7](#python -v 3.7)
+	  - [Python -v 3.7](#python -v 3.7)
 	  - [Pip -v 19.0](#pip -v 19.0)
 	  - [Azure package for python -v 4.0](#azure-package-python -v 4.0)
 	  - [Azure service principal](#azure-service-principal)
+
 	  
  * [Authentication](#authentication)
  	
@@ -44,7 +45,7 @@ This blog will be useful for developers who are facing the below pain points.
  
   `$ sudo apt install python3.7 `
  
-	For Windows, python can be downloaded and installed from the below official website. Kindly make sure to check the box that says 'Add Python 3.x to PATH' to ensure that the interpreter will be placed in your execution path.
+ For Windows, python can be downloaded and installed from the below official website. Kindly make sure to check the box that says 'Add Python 3.x to PATH' to ensure that the interpreter will be placed in your execution path.
 	
    https://www.python.org/downloads/
 	
