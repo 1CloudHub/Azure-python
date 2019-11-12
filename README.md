@@ -12,52 +12,62 @@ This blog will be useful for developers who are facing the below pain points.
 
 
 **Table of Contents**
-	
  * [Pre-requisites](#pre-requisites)
- 	
- 	 - Python -v 3.7
- 	 - Pip -v 19.0
- 	 - Azure package for python -v 4.0
-	
+      - [Python -v 3.7](#python -v 3.7)
+	  - [Pip -v 19.0](#pip -v 19.0)
+	  - [Azure package for python -v 4.0](#azure-package-python -v 4.0)
+	  - [Azure service principal](#azure-service-principal)
+	  
  * [Authentication](#authentication)
  	
- 	- Authenticate the API call
+ 	- [Authenticate the API call](#authenticate-the-api-call)
 	
  * [Context Setting](#context-setting)
- 	
-  	- List the virtual machines
+  	- [List the virtual machines](#list-the-virtual-machines)
 	
  * [Metrics Retrieval](#metrics-retrieval)
- 	
-  	- Fetch system metrics
+  	- [Fetch system metrics](#fetch-sysytem-metrics)
 	
  * [Output handling](#output-handling)
-  	- Writing the output to a file
+  	- [Writing the output to a file](#writing-the-output-to-a-file)
 	
  * [Reference Links](#reference-links)
 
 ## Pre-requisites
 - #### Python -v 3.7
-	Check if python is already installed.
+
+ Check if python is already installed.
  	
-	 `$ python3 --version `
+ `$ python3 --version `
+ 	
+ If not installed,  execute the below command.
+ 
+  `$ sudo apt install python3.7 `
+ 
+	For Windows, python can be downloaded and installed from the below official website. Kindly make sure to check the box that says 'Add Python 3.x to PATH' to ensure that the interpreter will be placed in your execution path.
 	
-	If not installed, download and setup python from the below official website.
    https://www.python.org/downloads/
 	
 - #### Pip -v 19.0
-	Check if pip is already installed.
+Check if pip is already installed.
 	
-	`$ pip3 --version`
+ `$pip3 --version `
  	
 	If not installed, execute the below command.
 	
-	`$ sudo apt install python3-pip`
+	 `$ sudo apt install python3-pip`
 	 
 - #### Azure package for python -v 4.0
 	Install Azure package for python using the below command.
 	
 	`$ sudo pip install azure`
+	
+- #### Azure service principal
+	A service principal with a *Contributor* role is required to authenticate the API calls to be made. For more information on how to create a service principal with the required role, kindly refer the below link from Microsoft.
+	
+	https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal
+	
+	The service pricinpal will contain all the necessary data that is required to authenticate the programmatic requests generated.
 	
 ## Authentication
 - ##### Authenticate the API call - creds.py
